@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>todo app</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3 id="title">Todo App</h3>
+      <form class="form-submit">
+        <input type="text" placeholder="add your new task" id="input" />
+        <!-- <span><i class="fa-solid fa-square-plus" id="add"></i></span> -->
+        <button type="submit" class="fa-solid fa-square-plus" id="add"></button>
+      </form>
+      <div class="todos">
+        <!-- <div class="element">
+          <div class="first-half">
+            <input class="todo-title" readonly value="go to school to study" />
+          </div>
+          <div class="second-half">
+            <div class="edit">
+              <i class="fa-solid fa-pen-to-square"></i>
+            </div>
+            <div class="delete"><i class="fa-solid fa-trash"></i></div>
+          </div>
+        </div> -->
+      </div>
+      <div class="todoinf_actions">
+        <p class="infotodos"></p>
+        <button id="clear_all">Clear All</button>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9645cdaa13.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
